@@ -19,9 +19,7 @@ body {
     transition: transform 0.2s;
 }
 
-/* #ramen-menu img:hover {
-    transform: scale(1.5);
-} */
+
 
 #ramen-detail img {
     width: 100px;
