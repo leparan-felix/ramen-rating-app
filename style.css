@@ -12,24 +12,26 @@ body {
 }
 
 #ramen-menu img {
-    width: 120px;
+    width: 100px;
     height: 100px;
     cursor: pointer;
     border-radius: 10px;
-    
+    transition: transform 0.2s;
 }
 
-
+#ramen-menu img:hover {
+    transform: scale(1.5);
+}
 
 #ramen-detail img {
-    width: 120px;
+    width: 100px;
     border-radius: 10px;
 }
 
 
 form {
     background: white;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     max-width: 300px;
     margin: auto;
