@@ -37,3 +37,7 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+button{ 
+    background-color: whitesmoke;
+    text-decoration-color: bisque;
+}
