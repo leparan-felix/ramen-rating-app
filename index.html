@@ -3,29 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ramen Rating App</title>
+    <title>Ramen Rating</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Ramen Rating App </h1>
-    <div id="ramen-menu"></div>
+    <p>Ramen Rater </p>
+    <div id="ramen-menu"><p>Ramen Rater </p></div>
+    
 
     <div id="ramen-detail">
         <img id="detail-image" src="/home/leparan-sopia/Development/gyukotsu.jpg" alt="Ramen Image">
         <h2 id="ramen-name"></h2>
         <h3 id="ramen-restaurant"></h3>
         <p>Rating: <span id="ramen-rating"></span></p>
-        <p>Comment: <span id="ramen-comment"></span></p>
+        <p>Comment: <span id="ramen-comment"></span> </p>
     </div>
 
     <form id="new-ramen">
-        <h3>Add New Ramen</h3>
-        <input type="text" id="name" placeholder="Ramen Name" required>
-        <input type="text" id="restaurant" placeholder="Restaurant" required>
-        <input type="url" id="image" placeholder="Image URL" required>
-        <input type="number" id="rating" min="1" max="5" placeholder="Rating" required>
-        <input type="text" id="comment" placeholder="Comment" required>
-        <button type="submit">Add Ramen</button>
+
+        <h3>Add New Ramen </h3>
+       
+        <input type="text" id="name" placeholder="Ramen Name">
+        <input type="text" id="restaurant" placeholder="Restaurant" >
+        <input type="url" id="image" placeholder="Image URL" >
+        <input type="number" id="rating" min="1" max="5" placeholder="Rating" >
+        <input type="text" id="comment" placeholder="Comment" >
+        <button type="submit">Create</button>
     </form>
 
     <script src="index.js"></script>
