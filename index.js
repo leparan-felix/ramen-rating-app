@@ -46,7 +46,7 @@ function addSubmitListener() {
 
         ramens.push(newRamen);
         displayRamens();
-        form.reset(); // Reset the form fields
+        form.reset(); 
     });
 }
 
