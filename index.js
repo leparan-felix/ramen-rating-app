@@ -1,7 +1,7 @@
 
 const ramens = [
-    { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "/home/leparan-sopia/Development/gyukotsu.jpg", rating: 5, comment: "Delicious!" },
-    { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "/home/leparan-sopia/Downloads/kojiro.jpg", rating: 4, comment: "Very flavorful!" },
+    { id: 1, name: "Shoyu Ramen", restaurant: "Ichiran", image: "", rating: 5, comment: "Delicious!" },
+    { id: 2, name: "Miso Ramen", restaurant: "Menya", image: "kojiro.jpg", rating: 4, comment: "Very flavorful!" },
     { id: 3, name: "Tonkotsu Ramen", restaurant: "Ramen-ya", image: "/home/leparan-sopia/Downloads/naruto.jpg", rating: 3, comment: "Rich broth!" },
     
 
